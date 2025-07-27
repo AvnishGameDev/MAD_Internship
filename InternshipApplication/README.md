@@ -28,10 +28,10 @@ This application acts as a portfolio hub, providing access to multiple independe
 - **Features**: Pizza selection, toppings, size options, order calculation
 - **Concepts**: Complex forms, calculations, order management
 
-### 5. **UTSApp** 📊
-- **Purpose**: Unit Testing System application
-- **Features**: Testing frameworks and methodologies
-- **Concepts**: Unit testing, test automation, quality assurance
+### 5. **UTSApp** �
+- **Purpose**: Unreserved Ticketing System application
+- **Features**: Railway ticket booking and management system
+- **Concepts**: Indian Railways UTS system, booking workflows, ticket management
 
 ### 6. **CalculatorApp** 🧮
 - **Purpose**: Basic arithmetic calculator

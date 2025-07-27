@@ -34,7 +34,7 @@ This workspace contains **21 Android applications** that showcase various Androi
     - **AuthApp** - Authentication system with login/register
     - **CheckboxRadioApp** - UI components demonstration (checkboxes, radio buttons)
     - **PizzaOrderCustomizer** - Pizza ordering system with customization options
-    - **UTSApp** - Unit Testing System application
+    - **UTSApp** - Unreserved Ticketing System (Indian Railways) application
     - **CalculatorApp** - Basic calculator with arithmetic operations
     - **TempConversionApp** - Temperature unit conversion utility
     - **CoinFlipApp** - Random coin flip simulation
@@ -107,7 +107,7 @@ This workspace contains **21 Android applications** that showcase various Androi
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/AvnishGameDev/MAD_Internship
    ```
 2. Open Android Studio
 3. Select "Open an existing Android Studio project"
@@ -163,8 +163,8 @@ This project is developed for educational purposes as part of the MAD Internship
 ## 👨‍💻 Developer
 
 **Avnish Kirnalli**
-- GitHub: [@avnishkirnalli](https://github.com/avnishkirnalli)
-- Email: [your-email@example.com]
+- GitHub: [@avnishgamedev](https://github.com/avnishgamedev)
+- Email: [avnishgamedev@gmail.com]
 
 ## 🤝 Contributing
 
