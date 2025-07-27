@@ -30,20 +30,21 @@ This workspace contains **32 Android applications** that showcase various Androi
 ### 🎮 Multi-Project Application
 
 **[InternshipApplication](./InternshipApplication/)** - A comprehensive hub application containing 14 embedded mini-projects accessible through button navigation:
-    19. **TempApp** - Temperature display application
-    20. **AuthApp** - Authentication system with login/register
-    21. **CheckboxRadioApp** - UI components demonstration (checkboxes, radio buttons)
-    22. **PizzaOrderCustomizer** - Pizza ordering system with customization options
-    23. **UTSApp** - Unreserved Ticketing System (Indian Railways) application
-    24. **CalculatorApp** - Basic calculator with arithmetic operations
-    25. **TempConversionApp** - Temperature unit conversion utility
-    26. **CoinFlipApp** - Random coin flip simulation
-    27. **DiceRollApp** - Random dice rolling application
-    28. **FlipkartClone** - E-commerce interface clone
-    29. **ShoppingList** - Basic shopping list manager
-    30. **CollegeList** - Educational institution listing
-    31. **NotesApp** - Note-taking application with CRUD operations
-    32. **AdvancedShoppingList** - Enhanced shopping list with context menus
+
+19. **TempApp** - Temperature display application
+20. **AuthApp** - Authentication system with login/register
+21. **CheckboxRadioApp** - UI components demonstration (checkboxes, radio buttons)
+22. **PizzaOrderCustomizer** - Pizza ordering system with customization options
+23. **UTSApp** - Unreserved Ticketing System (Indian Railways) application
+24. **CalculatorApp** - Basic calculator with arithmetic operations
+25. **TempConversionApp** - Temperature unit conversion utility
+26. **CoinFlipApp** - Random coin flip simulation
+27. **DiceRollApp** - Random dice rolling application
+28. **FlipkartClone** - E-commerce interface clone
+29. **ShoppingList** - Basic shopping list manager
+30. **CollegeList** - Educational institution listing
+31. **NotesApp** - Note-taking application with CRUD operations
+32. **AdvancedShoppingList** - Enhanced shopping list with context menus
 
 ## 🛠️ Technologies Used
 
