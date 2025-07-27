@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dice Roll"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made by Avnish Kirnalli"
+        android:layout_gravity="center"
+        android:textColor="@color/light_blue" />
+
+    <ImageView
+        android:id="@+id/IMG_Dice"
+        android:layout_width="214dp"
+        android:layout_height="214dp"
+        android:src="@drawable/dice_one"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/TXT_DiceNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="One"
+        android:layout_marginTop="40dp"
+        android:textSize="40sp"
+        android:textColor="@color/light_blue" />
+
+    <Button
+        android:id="@+id/BTN_DiceRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Roll"
+        android:textSize="28sp" />
+
+</LinearLayout>

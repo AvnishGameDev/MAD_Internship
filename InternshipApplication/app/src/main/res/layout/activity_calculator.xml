@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made by Avnish Kirnalli"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/light_blue" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="First Number"
+        android:layout_marginTop="40dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EDT_FirstNumber"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Second Number"
+        android:layout_marginTop="40dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EDT_SecondNumber"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_margin="44dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/BTN_Subtract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="-" />
+        <Button
+            android:id="@+id/BTN_Divide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="/" />
+        <Button
+            android:id="@+id/BTN_Multiply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="*" />
+        <Button
+            android:id="@+id/BTN_Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="+" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/TXT_CalculatorAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer:"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue" />
+
+</LinearLayout>

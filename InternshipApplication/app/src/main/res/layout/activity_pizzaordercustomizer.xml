@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza Order Customizer"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter Name"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginTop="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EDT_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza Size"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="18dp" />
+
+    <RadioGroup
+        android:id="@+id/RG_PizzaSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="18dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza Toppings"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="18dp" />
+
+    <CheckBox
+        android:id="@+id/CB_ExtraCheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Cheese"
+        android:layout_marginLeft="18dp" />
+    <CheckBox
+        android:id="@+id/CB_Paneer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paneer"
+        android:layout_marginLeft="18dp" />
+    <CheckBox
+        android:id="@+id/CB_Olives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olives"
+        android:layout_marginLeft="18dp" />
+    <CheckBox
+        android:id="@+id/CB_Jalepenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jalepenos"
+        android:layout_marginLeft="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="18dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="18dp"
+        android:hint="Quantity">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EDT_Quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/BTN_PlaceOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/TXT_OrderDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made by Avnish Kirnalli"
+        android:textColor="#0060FF"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp" />
+
+
+</LinearLayout>

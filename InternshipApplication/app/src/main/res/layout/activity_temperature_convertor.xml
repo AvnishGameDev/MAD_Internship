@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature Conversion"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made by Avnish Kirnalli"
+        android:layout_gravity="center"
+        android:textColor="@color/light_blue" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Temperature in Celsius"
+        android:layout_marginTop="40dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EDT_Temperature"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/BTN_Convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert to Fahrenheit"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:id="@+id/TXT_TempInF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature in Fahrenheit: "
+        android:layout_gravity="center"
+        android:textColor="@color/light_blue"
+        android:layout_marginTop="28dp" />
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Internship App"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by Avnish Kirnalli"
+        android:layout_gravity="center"
+        android:textColor="@color/light_blue" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/BTN_TempApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temporary App"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_AuthApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Authentication App"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_CheckboxRadioApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkbox/Radiobutton App"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_PizzaOrderCustomizerApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza Order Customizer App"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_UTSApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UTS App"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_CalculatorApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator App"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_TempConversionApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature Conversion App"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_CoinFlipApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coin Flip App"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_DiceRollApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dice Roll App"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_FlipkartClone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flipkart Clone"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_ShoppingList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shopping List"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_CollegeList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College List"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_NotesApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes App"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/BTN_AdvancedShoppingList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advanced Shopping List"
+        android:layout_gravity="center" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
