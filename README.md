@@ -4,7 +4,7 @@ This repository contains a comprehensive collection of Android applications deve
 
 ## 📋 Project Overview
 
-This workspace contains **21 Android applications** that showcase various Android development concepts and technologies:
+This workspace contains **32 Android applications** that showcase various Android development concepts and technologies:
 
 ### 🎯 Individual Applications
 
@@ -29,21 +29,21 @@ This workspace contains **21 Android applications** that showcase various Androi
 
 ### 🎮 Multi-Project Application
 
-19. **[InternshipApplication](./InternshipApplication/)** - A comprehensive hub application containing 14 embedded mini-projects accessible through button navigation:
-    - **TempApp** - Temperature display application
-    - **AuthApp** - Authentication system with login/register
-    - **CheckboxRadioApp** - UI components demonstration (checkboxes, radio buttons)
-    - **PizzaOrderCustomizer** - Pizza ordering system with customization options
-    - **UTSApp** - Unreserved Ticketing System (Indian Railways) application
-    - **CalculatorApp** - Basic calculator with arithmetic operations
-    - **TempConversionApp** - Temperature unit conversion utility
-    - **CoinFlipApp** - Random coin flip simulation
-    - **DiceRollApp** - Random dice rolling application
-    - **FlipkartClone** - E-commerce interface clone
-    - **ShoppingList** - Basic shopping list manager
-    - **CollegeList** - Educational institution listing
-    - **NotesApp** - Note-taking application with CRUD operations
-    - **AdvancedShoppingList** - Enhanced shopping list with context menus
+**[InternshipApplication](./InternshipApplication/)** - A comprehensive hub application containing 14 embedded mini-projects accessible through button navigation:
+    19. **TempApp** - Temperature display application
+    20. **AuthApp** - Authentication system with login/register
+    21. **CheckboxRadioApp** - UI components demonstration (checkboxes, radio buttons)
+    22. **PizzaOrderCustomizer** - Pizza ordering system with customization options
+    23. **UTSApp** - Unreserved Ticketing System (Indian Railways) application
+    24. **CalculatorApp** - Basic calculator with arithmetic operations
+    25. **TempConversionApp** - Temperature unit conversion utility
+    26. **CoinFlipApp** - Random coin flip simulation
+    27. **DiceRollApp** - Random dice rolling application
+    28. **FlipkartClone** - E-commerce interface clone
+    29. **ShoppingList** - Basic shopping list manager
+    30. **CollegeList** - Educational institution listing
+    31. **NotesApp** - Note-taking application with CRUD operations
+    32. **AdvancedShoppingList** - Enhanced shopping list with context menus
 
 ## 🛠️ Technologies Used
 
