@@ -4,7 +4,7 @@ This repository contains a comprehensive collection of Android applications deve
 
 ## 📋 Project Overview
 
-This workspace contains **32 Android applications** that showcase various Android development concepts and technologies:
+This workspace contains **34 Android applications** that showcase various Android development concepts and technologies:
 
 ### 🎯 Individual Applications
 
@@ -12,39 +12,41 @@ This workspace contains **32 Android applications** that showcase various Androi
 2. **[AudioRecorder](./AudioRecorder/)** - Audio recording app with list management and playback functionality
 3. **[AvnishsLoginApp](./AvnishsLoginApp/)** - Firebase-authenticated login application with Google Sign-In
 4. **[BlogApp](./BlogApp/)** - Full-featured blog application with Firebase backend and user authentication
-5. **[DiaryApp](./DiaryApp/)** - Personal diary application with SQLite database for local storage
-6. **[EcommerceApp](./EcommerceApp/)** - E-commerce platform with admin/customer portals and Firebase integration
-7. **[ExpenseTracker](./ExpenseTracker/)** - Personal expense tracking application with income/expense categorization
-8. **[HealthTrackerApp](./HealthTrackerApp/)** - Health monitoring app with bottom navigation and fragment-based UI
-9. **[LoginApp](./LoginApp/)** - Basic authentication system with SQLite database and session management
-10. **[MusicPlayer](./MusicPlayer/)** - Genre-based music player with multiple music categories
-11. **[NewsApp](./NewsApp/)** - News reading application with article management and notifications
-12. **[SimpleCameraApp](./SimpleCameraApp/)** - Camera application with photo capture and preview functionality
-13. **[SimpleQRScanner](./SimpleQRScanner/)** - QR code scanner using ML Kit and CameraX
-14. **[TextEditor](./TextEditor/)** - Simple text editor with file operations and sharing capabilities
-15. **[ThemeSwitcher](./ThemeSwitcher/)** - Dark/Light theme switching demonstration
-16. **[VideoPlayer](./VideoPlayer/)** - Video playback application with media controls
-17. **[WeatherApp](./WeatherApp/)** - Weather information app with API integration
-18. **[WhatsappClone](./WhatsappClone/)** - WhatsApp-like chat interface with recycler view
+5. **[Clock](./Clock/)** - Digital clock application with alarm functionality and notification support
+6. **[DiaryApp](./DiaryApp/)** - Personal diary application with SQLite database for local storage
+7. **[EcommerceApp](./EcommerceApp/)** - E-commerce platform with admin/customer portals and Firebase integration
+8. **[ExpenseTracker](./ExpenseTracker/)** - Personal expense tracking application with income/expense categorization
+9. **[HealthTrackerApp](./HealthTrackerApp/)** - Health monitoring app with bottom navigation and fragment-based UI
+10. **[LoginApp](./LoginApp/)** - Basic authentication system with SQLite database and session management
+11. **[MusicPlayer](./MusicPlayer/)** - Genre-based music player with multiple music categories
+12. **[NewsApp](./NewsApp/)** - News reading application with article management and notifications
+13. **[SimpleCameraApp](./SimpleCameraApp/)** - Camera application with photo capture and preview functionality
+14. **[SimpleQRScanner](./SimpleQRScanner/)** - QR code scanner using ML Kit and CameraX
+15. **[TextEditor](./TextEditor/)** - Simple text editor with file operations and sharing capabilities
+16. **[ThemeSwitcher](./ThemeSwitcher/)** - Dark/Light theme switching demonstration
+17. **[TicTacToe](./TicTacToe/)** - Classic tic-tac-toe game with score tracking and reset functionality
+18. **[VideoPlayer](./VideoPlayer/)** - Video playback application with media controls
+19. **[WeatherApp](./WeatherApp/)** - Weather information app with API integration
+20. **[WhatsappClone](./WhatsappClone/)** - WhatsApp-like chat interface with recycler view
 
 ### 🎮 Multi-Project Application
 
 **[InternshipApplication](./InternshipApplication/)** - A comprehensive hub application containing 14 embedded mini-projects accessible through button navigation:
 
-19. **TempApp** - Temperature display application
-20. **AuthApp** - Authentication system with login/register
-21. **CheckboxRadioApp** - UI components demonstration (checkboxes, radio buttons)
-22. **PizzaOrderCustomizer** - Pizza ordering system with customization options
-23. **UTSApp** - Unreserved Ticketing System (Indian Railways) application
-24. **CalculatorApp** - Basic calculator with arithmetic operations
-25. **TempConversionApp** - Temperature unit conversion utility
-26. **CoinFlipApp** - Random coin flip simulation
-27. **DiceRollApp** - Random dice rolling application
-28. **FlipkartClone** - E-commerce interface clone
-29. **ShoppingList** - Basic shopping list manager
-30. **CollegeList** - Educational institution listing
-31. **NotesApp** - Note-taking application with CRUD operations
-32. **AdvancedShoppingList** - Enhanced shopping list with context menus
+21. **TempApp** - Temperature display application
+22. **AuthApp** - Authentication system with login/register
+23. **CheckboxRadioApp** - UI components demonstration (checkboxes, radio buttons)
+24. **PizzaOrderCustomizer** - Pizza ordering system with customization options
+25. **UTSApp** - Unreserved Ticketing System (Indian Railways) application
+26. **CalculatorApp** - Basic calculator with arithmetic operations
+27. **TempConversionApp** - Temperature unit conversion utility
+28. **CoinFlipApp** - Random coin flip simulation
+29. **DiceRollApp** - Random dice rolling application
+30. **FlipkartClone** - E-commerce interface clone
+31. **ShoppingList** - Basic shopping list manager
+32. **CollegeList** - Educational institution listing
+33. **NotesApp** - Note-taking application with CRUD operations
+34. **AdvancedShoppingList** - Enhanced shopping list with context menus
 
 ## 🛠️ Technologies Used
 
