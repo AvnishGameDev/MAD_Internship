@@ -1,5 +1,6 @@
 package com.avnishgamedev.newsapp;
 
+import android.app.Activity;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
@@ -10,10 +11,10 @@ import java.util.Random;
 
 public class NotificationHelper {
 
-    public static void requestPermission(Context c) {
+    public static void requestPermission(Activity activity) {
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
-            if (c.checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS) != android.content.pm.PackageManager.PERMISSION_GRANTED) {
-                c.requestPermissions(new String[]{android.Manifest.permission.POST_NOTIFICATIONS}, 1);
+            if (activity.checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS) != android.content.pm.PackageManager.PERMISSION_GRANTED) {
+                activity.requestPermissions(new String[]{android.Manifest.permission.POST_NOTIFICATIONS}, 1);
             }
         }
     }

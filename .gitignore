@@ -1,5 +1,10 @@
 # MAD Internship - Root .gitignore
 
+# Build scripts (personal use only)
+build_all_apks.py
+build_apks.bat
+_BUILD/
+
 # Built application files from all projects
 **/*.apk
 **/*.aar

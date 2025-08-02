@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "File saved", Toast.LENGTH_SHORT).show();
             } catch (IOException e) {
                 e.printStackTrace();
-                Toast.makeText(this, "Could not save file", Toast.LENGTH_SHORT).show();D
+                Toast.makeText(this, "Could not save file", Toast.LENGTH_SHORT).show();
             }
         }
     }
