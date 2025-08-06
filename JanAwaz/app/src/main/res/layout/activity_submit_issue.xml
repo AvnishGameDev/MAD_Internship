@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?android:attr/colorBackground">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary_color"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report a New Issue"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text_color"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Issue Title -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:boxStrokeColor="@color/primary_color"
+                app:hintTextColor="@color/primary_color"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/issue_title"
+                    android:inputType="textCapSentences"
+                    android:textColor="@color/primary_text_color"
+                    android:textColorHint="@color/secondary_text_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Issue Description -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:boxStrokeColor="@color/primary_color"
+                app:hintTextColor="@color/primary_color"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/issue_description"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:minLines="3"
+                    android:maxLines="5"
+                    android:textColor="@color/primary_text_color"
+                    android:textColorHint="@color/secondary_text_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Category -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/issue_category"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text_color"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/card_background">
+
+                <Spinner
+                    android:id="@+id/spinner_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_margin="8dp"
+                    android:padding="12dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Location Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/issue_location"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text_color"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    app:boxStrokeColor="@color/primary_color"
+                    app:hintTextColor="@color/primary_color"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter location or address"
+                        android:inputType="textPostalAddress"
+                        android:textColor="@color/primary_text_color"
+                        android:textColorHint="@color/secondary_text_color" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btn_get_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="56dp"
+                    android:text="📍 GPS"
+                    android:textColor="@android:color/white"
+                    android:background="@color/primary_color"
+                    android:minWidth="0dp"
+                    android:paddingHorizontal="16dp"
+                    style="?android:attr/borderlessButtonStyle" />
+
+            </LinearLayout>
+
+            <!-- Contact Info (Optional) -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:boxStrokeColor="@color/primary_color"
+                app:hintTextColor="@color/primary_color"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_contact_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/contact_info"
+                    android:inputType="phone"
+                    android:textColor="@color/primary_text_color"
+                    android:textColorHint="@color/secondary_text_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Submit Button -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@color/card_background">
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="@string/submit_issue"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="@color/primary_color"
+                    style="?android:attr/borderlessButtonStyle" />
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Progress Bar -->
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:indeterminateTint="@color/primary_color" />
+
+            <!-- Helper Text -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="💡 Provide clear details to help authorities understand and resolve the issue quickly."
+                android:textSize="12sp"
+                android:textColor="@color/secondary_text_color"
+                android:textAlignment="center"
+                android:padding="16dp"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

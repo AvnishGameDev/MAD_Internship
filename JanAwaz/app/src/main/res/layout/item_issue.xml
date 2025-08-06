@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_issue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/card_background"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Status Indicator -->
+        <View
+            android:id="@+id/status_indicator"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:background="@color/status_pending" />
+
+        <!-- Content -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Title and Status Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/tv_issue_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Issue Title"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text_color"
+                    android:maxLines="2"
+                    android:ellipsize="end" />
+
+                <TextView
+                    android:id="@+id/tv_issue_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pending"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/status_pending"
+                    android:background="@drawable/status_background"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="4dp"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+            <!-- Category and Location -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/tv_issue_category"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Category"
+                    android:textSize="14sp"
+                    android:textColor="@color/secondary_text_color"
+                    android:drawableStart="@drawable/ic_category"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/tv_issue_location"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Location"
+                    android:textSize="14sp"
+                    android:textColor="@color/secondary_text_color"
+                    android:drawableStart="@drawable/ic_location"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:ellipsize="end" />
+
+            </LinearLayout>
+
+            <!-- Date -->
+            <TextView
+                android:id="@+id/tv_issue_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jan 01, 2024"
+                android:textSize="12sp"
+                android:textColor="@color/secondary_text_color"
+                android:drawableStart="@drawable/ic_date"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <!-- Arrow Icon -->
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrow_forward"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:contentDescription="View Details"
+            android:alpha="0.6" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">JanAwaz</string>
+    <string name="default_web_client_id">your_web_client_id_here</string>
+    
+    <!-- Login Screen -->
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="app_tagline">Report Issues. Make Change Happen.</string>
+    <string name="app_footer">Citizens helping citizens build better communities</string>
+    
+    <!-- Main Screen -->
+    <string name="submit_new_issue">Submit New Issue</string>
+    <string name="my_issues">My Issues</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_message">Welcome to JanAwaz</string>
+    
+    <!-- Issue Form -->
+    <string name="issue_title">Issue Title</string>
+    <string name="issue_description">Description</string>
+    <string name="issue_category">Category</string>
+    <string name="issue_location">Location</string>
+    <string name="contact_info">Contact Info (Optional)</string>
+    <string name="submit_issue">Submit Issue</string>
+    <string name="get_current_location">Get Current Location</string>
+    
+    <!-- Categories -->
+    <string name="category_road">Road/Infrastructure</string>
+    <string name="category_electricity">Electricity</string>
+    <string name="category_water">Water Supply</string>
+    <string name="category_waste">Waste Management</string>
+    <string name="category_streetlight">Street Light</string>
+    <string name="category_other">Other</string>
+    
+    <!-- Status -->
+    <string name="status_pending">Pending</string>
+    <string name="status_in_queue">In Queue</string>
+    <string name="status_fixing">Fixing</string>
+    <string name="status_resolved">Resolved</string>
+    
+    <!-- Admin -->
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="all_issues">All Issues</string>
+    <string name="update_status">Update Status</string>
+    <string name="admin_email">admin@janawaz.com</string>
+    <string name="admin_password">Password</string>
+    <string name="admin_login_button">Login as Admin</string>
+    
+    <!-- Messages -->
+    <string name="issue_submitted_successfully">Issue submitted successfully!</string>
+    <string name="error_submitting_issue">Error submitting issue. Please try again.</string>
+    <string name="status_updated_successfully">Status updated successfully!</string>
+    <string name="error_updating_status">Error updating status. Please try again.</string>
+    <string name="location_permission_required">Location permission is required to get current location</string>
+    <string name="getting_location">Getting current location...</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="admin_login_failed">Admin login failed. Please check your credentials.</string>
+</resources>

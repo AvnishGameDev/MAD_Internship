@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="?android:attr/colorBackground">
+
+    <!-- App Logo and Title -->
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="JanAwaz Logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JanAwaz"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_color"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report Issues. Make Change Happen."
+        android:textSize="16sp"
+        android:textColor="@color/secondary_text_color"
+        android:layout_marginBottom="48dp"
+        android:textAlignment="center" />
+
+    <!-- Google Sign In Button -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/card_background">
+
+        <Button
+            android:id="@+id/btn_google_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Sign in with Google"
+            android:textColor="@android:color/white"
+            android:background="@color/google_blue"
+            android:drawableStart="@drawable/ic_google"
+            android:drawablePadding="16dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            style="?android:attr/borderlessButtonStyle" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Admin Login Button -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/card_background">
+
+        <Button
+            android:id="@+id/btn_admin_login"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Admin Login"
+            android:textColor="@android:color/white"
+            android:background="@color/admin_color"
+            android:drawableStart="@drawable/ic_admin"
+            android:drawablePadding="16dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            style="?android:attr/borderlessButtonStyle" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Footer Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Citizens helping citizens build better communities"
+        android:textSize="12sp"
+        android:textColor="@color/secondary_text_color"
+        android:layout_marginTop="48dp"
+        android:textAlignment="center" />
+
+</LinearLayout>

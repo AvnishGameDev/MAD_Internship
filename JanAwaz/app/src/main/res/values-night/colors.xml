@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- App Theme Colors (Dark Mode) -->
+    <color name="primary_color">#64B5F6</color>
+    <color name="primary_dark_color">#42A5F5</color>
+    <color name="accent_color">#FF7043</color>
+    
+    <!-- Background Colors (Dark Mode) -->
+    <color name="background_color">#121212</color>
+    <color name="card_background">#1E1E1E</color>
+    
+    <!-- Text Colors (Dark Mode) -->
+    <color name="primary_text_color">#FFFFFF</color>
+    <color name="secondary_text_color">#B0B0B0</color>
+    
+    <!-- Button Colors (Dark Mode) -->
+    <color name="google_blue">#4285F4</color>
+    <color name="admin_color">#FF7043</color>
+    
+    <!-- Status Colors (Dark Mode) -->
+    <color name="status_pending">#FFB74D</color>
+    <color name="status_in_queue">#64B5F6</color>
+    <color name="status_fixing">#BA68C8</color>
+    <color name="status_resolved">#81C784</color>
+    
+    <!-- Utility Colors (Dark Mode) -->
+    <color name="divider_color">#303030</color>
+    <color name="error_color">#EF5350</color>
+    <color name="success_color">#66BB6A</color>
+</resources>
