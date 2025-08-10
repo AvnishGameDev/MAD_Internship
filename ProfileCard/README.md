@@ -1,6 +1,4 @@
-\# Profile Card App
+# Profile Card App
 
-
-
-Static Profile card Display App using CardViews etc.
+App to beautifully display Profile Information using Material Design and CardViews.
 
