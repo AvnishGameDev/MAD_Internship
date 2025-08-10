@@ -1,6 +1,2 @@
-\# Product Card App
-
-
-
-Simple Product Display (Wireless EarBuds).
-
+# Product Card App
+App to diplay Product Details beautifully using Material Design and CardViews.
